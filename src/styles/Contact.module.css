@@ -1,0 +1,43 @@
+.contact{
+    padding-top: 5px;
+}
+
+.contact p{
+    margin-bottom: 0;
+    color: #BFBFB9;
+    font-size: 13px;
+}
+
+
+.mapIcon {
+    width: 17px;
+    color: #C5A2A2;
+    margin-right: 12px;
+}
+
+.phoneIcon {
+    width: 17px;
+    color: #C5A2A2;
+    margin-right: 12px;
+}
+
+.icon {
+   display: flex;
+   float: right;
+   align-items: center;
+}
+
+.icon p{
+    color: #BFBFB9;
+}
+
+.icon a{
+    width: 13px;
+    margin: 0 15px;
+}
+
+.hr{
+    width: 96%;
+    margin: auto;
+    margin-top: 15px;
+}
