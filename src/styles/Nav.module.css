@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Yuji+Mai&display=swap");
 
+.navbar{
+  margin: 20px 0;
+}
+
 .logo {
   font-family: "Yuji Mai", serif;
   font-weight: 700;
@@ -127,10 +131,4 @@
     background-color: #fff;
     border: none;
     width: 30px;
-}
-
-.shape{
-  width: 100%;
-  height: 13px;
-  background-image: url("../images/bg-1.png");
 }

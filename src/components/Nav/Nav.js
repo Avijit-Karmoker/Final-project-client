@@ -1,4 +1,5 @@
-import React, { useEffect } from "react";
+import React from "react";
+import Image from "next/image"
 import style from "../../styles/Nav.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faCartPlus, faSearch } from "@fortawesome/free-solid-svg-icons";
@@ -88,7 +89,6 @@ const Nav = () => {
           </div>
         </nav>
       </div>
-      <div className={style.shape}></div>
     </section>
   );
 };
