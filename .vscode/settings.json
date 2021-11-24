@@ -1,0 +1,8 @@
+{
+  "editor.fontFamily": "Fira Code",
+  "editor.fontSize": 20,
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.syntaxProfiles": {
+    "javascript": "javascriptreact"
+  },
+}

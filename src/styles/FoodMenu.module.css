@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Playfair+Display&display=swap");
+
+.menu {
+  padding-top: 5%;
+}
+
+.menu h1 {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 40px;
+}
+
+.selectMenu {
+  border: none;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  background: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  transition: 0.3s;
+  margin-left: 20px;
+}
+
+.selectMenu:focus {
+  background-color: #fff;
+  color: #fc893f;
+}
+
+.selectMenu p {
+  margin-bottom: 0;
+  padding-left: 20px;
+  font-size: 22px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+}
+
+.menuItems{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 20px;
+}
+
+.menuItems img{
+    border-radius: 10px;
+}
+
+.lunch{
+    display: none;
+    transition: 0.3s;
+}
+
+.dinner{
+    display: none;
+    transition: 0.3s;
+}
+
+.drinks{
+    display: none;
+    transition: 0.3s;
+}
