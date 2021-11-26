@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Kaushan+Script&display=swap');
+
+.section1{
+    background-image: url("../../public/images/bg-2.png");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    align-items: center;
+}
+
+.section1 h4{
+    padding-top: 9%;
+    font-size: 40px;
+    font-family: 'Great Vibes', cursive;
+}
+
+.section1 h3{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 50px;
+}
+
+.shape{
+    width: 15px;
+    height: 10px;
+    border-radius: 0 25px 25px 0;
+    background-color: #fff;
+}
+
+.section2{
+    background-color: #fff;
+    padding-top: 5%;
+    margin-bottom: 5%;
+}
+
+.chefs{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 30px;
+}
