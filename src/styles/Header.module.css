@@ -1,75 +1,73 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Kaushan+Script&family=Raleway:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Kaushan+Script&family=Raleway:wght@200&display=swap");
 
-.item1{
-    background-color: #000;
+.item1 h3 {
+  font-family: "Great Vibes", cursive;
+  font-size: 50px;
+  margin-top: 25px;
+  margin-bottom: 20px;
 }
-
-.item1 h3{
-    font-family: 'Great Vibes', cursive;
-    font-size: 50px;
-    margin-top: 25px;
-    margin-bottom: 20px;
-}
-.item1 h1{
-    font-family: 'Kaushan Script', cursive;
-    font-size: 75px;
-    margin-bottom: 20px;
+.item1 h1 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 75px;
+  margin-bottom: 20px;
 }
 
-.item1 p{
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    line-height: 25px;
-    font-weight: 600;
+.item1 p {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 600;
 }
 
-.item2{
-    background-color: #000;
+.item2 h4 {
+  font-family: "Great Vibes", cursive;
+  font-size: 45px;
 }
 
-.item2 h4{
-    font-family: 'Great Vibes', cursive;
-    font-size: 45px;
+.item2 h1 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 100px;
+  margin-bottom: 45px;
 }
 
-.item2 h1{
-    font-family: 'Kaushan Script', cursive;
-    font-size: 100px;
-    margin-bottom: 45px;
+.item3 h3 {
+  font-family: "Great Vibes", cursive;
+  font-size: 40px;
 }
 
-.item3{
-    background-color: #000;
+.item3 h1 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 90px;
 }
 
-.item1 img{
-    opacity: 0.5;
-}
-.item2 img{
-    opacity: 0.5;
-}
-.item3 img{
-    opacity: 0.5;
-}
-
-.icon{
-    opacity: 1 !important;
+.item3 p {
+  color: #f9f9f9;
+  font-family: "Raleway", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 27px;
+  padding-bottom: 10px;
+  margin-top: 35px;
 }
 
-.button{
-    background: none;
-    color: #fff;
-    border: 2px solid #fff;
-    padding: 20px 45px;
-    font-size: 13px;
-    font-weight: 800;
-    transition: .4s;
-    text-transform: uppercase;
-    font-family: 'Raleway', sans-serif;
+.icon {
+  opacity: 1 !important;
 }
 
-.button:hover{
-    color: #C5A679;
-    background: #fff;
-    text-transform: uppercase;
+.button {
+  background: none;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 20px 45px;
+  font-size: 13px;
+  font-weight: 800;
+  transition: 0.4s;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+}
+
+.button:hover {
+  color: #c5a679;
+  background: #fff;
+  text-transform: uppercase;
 }

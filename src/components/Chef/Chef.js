@@ -30,7 +30,7 @@ const Chef = () => {
                 <Image
                   src="/images/rupon.png"
                   alt="Deep"
-                  width={300}
+                  width={250}
                   height={300}
                 />
                 <h5 className="mt-3">Rifti Rupon</h5>

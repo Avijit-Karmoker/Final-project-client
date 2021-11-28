@@ -38,7 +38,7 @@ const Header = () => {
             <div className="carousel-item active item">
               <div className={style.item1}>
                 <Image
-                  src="/images/Image-1.png"
+                  src="/images/Image1.png"
                   alt="Background Image 1"
                   width={1920}
                   height={900}
@@ -68,14 +68,14 @@ const Header = () => {
             <div className="carousel-item">
               <div className={style.item2}>
                 <Image
-                  src="/images/Image-2.png"
+                  src="/images/Image2.png"
                   alt="Background Image 2"
                   width={1920}
                   height={900}
                 />
                 <div
                   className="carousel-caption d-none d-md-block"
-                  style={{ top: "35%" }}
+                  style={{ top: "33%" }}
                 >
                   <h4>Creative & Talanted Chefs</h4>
                   <h1>Hot And Ready To Serve</h1>
@@ -86,18 +86,23 @@ const Header = () => {
             <div className="carousel-item">
               <div className={style.item3}>
                 <Image
-                  src="/images/Image-3.png"
+                  src="/images/Image3.png"
                   alt="Background Image 3"
                   width={1920}
                   height={900}
                 />
                 <div
                   className="carousel-caption d-none d-md-block"
-                  style={{ top: "45%" }}
+                  style={{ top: "35%" }}
                 >
-                  <h3>Creative & Talanted Chefs</h3>
-                  <h1>Hot And Ready To Serve</h1>
-                  <button>Reserve Now</button>
+                  <h3>Made With Love</h3>
+                  <h1>Fresh Ingredient, Tasty Meals</h1>
+                  <p>
+                    Granny is a restaurant, bar and coffee roastery located on
+                    Egypt. We have <br />
+                    awesome recipes and the most talented chefs in town!{" "}
+                  </p>
+                  <button className={style.button}>View Menu</button>
                 </div>
               </div>
             </div>
