@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Yuji+Mai&display=swap');
+
+.footer {
+  background-color: #1d1d1d;
+}
+
+.footer h1 {
+  font-family: "Yuji Mai", serif;
+  font-weight: 700;
+  font-size: 30px;
+  transition: 0.4s;
+  padding-top: 70px;
+  padding-bottom: 10px;
+}
+
+.left{
+    padding-right: 40%;
+}
+
+.icon {
+  display: flex;
+}
+
+.icon a {
+  width: 18px;
+  margin: 10px;
+  transition: 0.3s;
+}
+
+.icon a:hover {
+  color: #099329;
+}
