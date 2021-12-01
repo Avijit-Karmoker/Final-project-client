@@ -8,8 +8,15 @@ const Chef = () => {
       <div className={style.section1}>
         <h4>Ready to serve</h4>
         <h3>Talented Chefs</h3>
+        <div className={style.shape}>
+          <Image
+            src="/images/shapee.png"
+            alt="shape-1"
+            width={110}
+            height={25}
+          />
+        </div>
       </div>
-      <div className={style.shape}></div>
       <div className={style.section2}>
         <div className="container">
           <div className={style.chefs}>
