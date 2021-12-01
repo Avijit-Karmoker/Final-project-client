@@ -12,7 +12,7 @@ const Chef = () => {
           <Image
             src="/images/shapee.png"
             alt="shape-1"
-            width={110}
+            width={90}
             height={25}
           />
         </div>
@@ -21,7 +21,7 @@ const Chef = () => {
         <div className="container">
           <div className={style.chefs}>
             <div>
-              <div className="text-center shadow">
+              <div className="text-center shadow" style={{borderRadius: '10px'}}>
                 <Image
                   src="/images/deep.png"
                   alt="Deep"
@@ -33,7 +33,7 @@ const Chef = () => {
               </div>
             </div>
             <div>
-              <div className="text-center shadow">
+              <div className="text-center shadow" style={{borderRadius: '10px'}}>
                 <Image
                   src="/images/rupon.png"
                   alt="Deep"
@@ -45,7 +45,7 @@ const Chef = () => {
               </div>
             </div>
             <div>
-              <div className="text-center shadow">
+              <div className="text-center shadow" style={{borderRadius: '10px'}}>
                 <Image
                   src="/images/reju.png"
                   alt="Deep"
@@ -57,7 +57,7 @@ const Chef = () => {
               </div>
             </div>
             <div>
-              <div className="text-center shadow">
+              <div className="text-center shadow" style={{borderRadius: '10px'}}>
                 <Image
                   src="/images/ripa.png"
                   alt="Deep"

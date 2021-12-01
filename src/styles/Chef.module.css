@@ -4,7 +4,7 @@
     background-image: url("../../public/images/bg-2.png");
     background-attachment: fixed;
     background-size: cover;
-    height: 400px;
+    height: 500px;
     width: 100%;
     text-align: center;
     color: #fff;
@@ -12,7 +12,7 @@
 }
 
 .section1 h4{
-    padding-top: 8%;
+    padding-top: 9%;
     font-size: 40px;
     font-family: 'Great Vibes', cursive;
 }
@@ -24,7 +24,7 @@
 
 .shape{
     border-radius: 0 25px 25px 0;
-    padding-top: 100px;
+    padding-top: 9.7%;
 }
 
 .section2{
