@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Yuji+Mai&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Yuji+Mai&display=swap");
 
 .footer {
   background-color: #1d1d1d;
+  color: #fff;
 }
 
 .footer h1 {
@@ -13,8 +14,8 @@
   padding-bottom: 10px;
 }
 
-.left{
-    padding-right: 40%;
+.left {
+  padding-right: 40%;
 }
 
 .icon {
@@ -29,4 +30,62 @@
 
 .icon a:hover {
   color: #099329;
+}
+
+.footerMid h4 {
+  padding-top: 75px;
+  padding-bottom: 18px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.footerMid p {
+  line-height: 10px;
+}
+
+.footerRight h4 {
+  padding-top: 75px;
+  padding-bottom: 14px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.footerRight p {
+  padding-right: 5%;
+  margin-bottom: 3px;
+  font-weight: 500;
+}
+
+.footerRight a{
+  transition: 0.3s;
+}
+
+.footerRight a:hover{
+  color: #0D8122;
+}
+
+.copyright p {
+  margin-bottom: 0;
+  padding: 10px 0 20px 0;
+  font-size: 18px;
+}
+
+.footerNav a{
+  text-decoration: none;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.footer a:hover {
+  color: #0D8122;
+}
+
+.footerNav li {
+  display: inline-block;
+  list-style: none;
+  padding: 0 20px;
+}
+
+.footerNav ul{
+  text-align: right;
+  margin-bottom: 0;
+  padding-top: 10px;
 }
