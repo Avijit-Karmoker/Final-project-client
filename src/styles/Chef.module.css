@@ -1,6 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Kaushan+Script&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Kaushan+Script&display=swap");
 
-.section1{
+.section1 {
+  background-image: url("../../public/images/bg-2.png");
+  background-attachment: fixed;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  align-items: center;
+}
+
+.section1 h4 {
+  padding-top: 20%;
+  font-size: 24px;
+  font-family: "Great Vibes", cursive;
+}
+
+.section1 h3 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 35px;
+}
+
+.shape {
+  border-radius: 0 25px 25px 0;
+  padding-top: 9.7%;
+}
+
+.section2 {
+  background-color: #fff;
+  padding-top: 5%;
+  margin-bottom: 5%;
+}
+
+.chefs {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-column-gap: 30px;
+}
+
+@media (min-width: 1620px) {
+  .section1 {
     background-image: url("../../public/images/bg-2.png");
     background-attachment: fixed;
     background-size: cover;
@@ -9,32 +49,33 @@
     text-align: center;
     color: #fff;
     align-items: center;
-}
+  }
 
-.section1 h4{
+  .section1 h4 {
     padding-top: 9%;
     font-size: 40px;
-    font-family: 'Great Vibes', cursive;
-}
+    font-family: "Great Vibes", cursive;
+  }
 
-.section1 h3{
-    font-family: 'Kaushan Script', cursive;
+  .section1 h3 {
+    font-family: "Kaushan Script", cursive;
     font-size: 50px;
-}
+  }
 
-.shape{
+  .shape {
     border-radius: 0 25px 25px 0;
     padding-top: 9.7%;
-}
+  }
 
-.section2{
+  .section2 {
     background-color: #fff;
     padding-top: 5%;
     margin-bottom: 5%;
-}
+  }
 
-.chefs{
+  .chefs {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-column-gap: 30px;
+  }
 }

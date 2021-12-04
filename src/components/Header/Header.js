@@ -44,8 +44,7 @@ const Header = () => {
                   height={900}
                 />
                 <div
-                  className="carousel-caption d-none d-md-block"
-                  style={{ top: "20%" }}
+                  className="carousel-caption d-md-block" id={style.caption1}
                 >
                   <Image
                     src="/images/fork.png"
@@ -74,8 +73,8 @@ const Header = () => {
                   height={900}
                 />
                 <div
-                  className="carousel-caption d-none d-md-block"
-                  style={{ top: "33%" }}
+                  className="carousel-caption d-md-block"
+                  id={style.caption2}
                 >
                   <h4>Creative & Talanted Chefs</h4>
                   <h1>Hot And Ready To Serve</h1>
@@ -92,8 +91,7 @@ const Header = () => {
                   height={900}
                 />
                 <div
-                  className="carousel-caption d-none d-md-block"
-                  style={{ top: "35%" }}
+                  className="carousel-caption d-md-block" id={style.caption3}
                 >
                   <h3>Made With Love</h3>
                   <h1>Fresh Ingredient, Tasty Meals</h1>
