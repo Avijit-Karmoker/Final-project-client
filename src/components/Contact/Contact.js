@@ -14,8 +14,8 @@ const Contact = () => {
     <section>
       <div className={style.contact}>
         <div className="container pe-3 ps-3 row m-auto">
-          <div className="d-flex align-items-center col-lg-6 col-md-6 col-sm-12">
-            <div className="d-flex align-items-center pe-4">
+          <div className="align-items-center col-lg-6 col-md-6 col-sm-12" id={style.contact}>
+            <div className="align-items-center pe-4" id={style.contactLeft}>
               <span className={style.mapIcon}>
                 <FontAwesomeIcon icon={faMapMarkerAlt} />
               </span>

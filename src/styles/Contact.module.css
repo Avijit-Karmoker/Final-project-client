@@ -1,43 +1,103 @@
-.contact{
-    padding-top: 5px;
+.contact {
+  padding-top: 5px;
 }
 
-.contact p{
-    margin-bottom: 0;
-    color: #BFBFB9;
-    font-size: 13px;
+#contact{
+    padding-bottom: 5px;
 }
 
+#contactLeft{
+    display: flex;
+    padding-bottom: 5px;
+}
+
+.contact p {
+  margin-bottom: 0;
+  color: #bfbfb9;
+  font-size: 13px;
+}
 
 .mapIcon {
-    width: 17px;
-    color: #C5A2A2;
-    margin-right: 12px;
+  width: 17px;
+  color: #c5a2a2;
+  margin-right: 12px;
 }
 
 .phoneIcon {
-    width: 17px;
-    color: #C5A2A2;
-    margin-right: 12px;
+  width: 17px;
+  color: #c5a2a2;
+  margin-right: 12px;
 }
 
 .icon {
-   display: flex;
-   float: right;
-   align-items: center;
+  display: flex;
+  align-items: center;
 }
 
-.icon p{
-    color: #BFBFB9;
+.icon p {
+  color: #bfbfb9;
 }
 
-.icon a{
+.icon a {
+  width: 13px;
+  margin: 0 15px;
+}
+
+.hr {
+  width: 96%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+@media (min-width: 1620px) {
+  .contact {
+    padding-top: 5px;
+  }
+
+  #contact{
+      display: flex;
+  }
+  
+  #contactLeft{
+      display: flex;
+  }
+
+  .contact p {
+    margin-bottom: 0;
+    color: #bfbfb9;
+    font-size: 13px;
+  }
+
+  .mapIcon {
+    width: 17px;
+    color: #c5a2a2;
+    margin-right: 12px;
+  }
+
+  .phoneIcon {
+    width: 17px;
+    color: #c5a2a2;
+    margin-right: 12px;
+  }
+
+  .icon {
+    display: flex;
+    float: right;
+    align-items: center;
+  }
+
+  .icon p {
+    color: #bfbfb9;
+  }
+
+  .icon a {
     width: 13px;
     margin: 0 15px;
-}
+  }
 
-.hr{
+  .hr {
     width: 96%;
     margin: auto;
     margin-top: 10px;
+  }
 }

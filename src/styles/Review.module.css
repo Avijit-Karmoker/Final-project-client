@@ -4,7 +4,7 @@
   background-image: url("../../public/images/bg-3.png");
   background-attachment: fixed;
   background-size: cover;
-  height: 600px;
+  height: 420px;
   width: 100%;
   text-align: center;
   display: block;
@@ -12,13 +12,14 @@
 }
 
 .review h5 {
-  font-size: 40px;
+  font-size: 28px;
   font-family: "Great Vibes", cursive;
   font-weight: 400;
   color: #fff;
   line-height: 39px;
   margin-bottom: 26px;
-  padding: 0 13%;
+  margin-top: 26px;
+  padding: 0 2%;
 }
 
 .image1 {
@@ -27,11 +28,49 @@
 }
 
 .image2 {
-  padding-top: 7.1%;
+  padding-top: 15%;
 }
 
 .name {
   font-family: "Raleway", sans-serif;
   color: #9a8348;
   font-size: 15px;
+}
+
+@media (min-width: 1620px) {
+  .review {
+    background-image: url("../../public/images/bg-3.png");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    display: block;
+    align-items: center;
+  }
+  
+  .review h5 {
+    font-size: 40px;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    color: #fff;
+    line-height: 39px;
+    margin-bottom: 26px;
+    padding: 0 13%;
+  }
+  
+  .image1 {
+    padding-top: 17%;
+    padding-bottom: 2%;
+  }
+  
+  .image2 {
+    padding-top: 6%;
+  }
+  
+  .name {
+    font-family: "Raleway", sans-serif;
+    color: #9a8348;
+    font-size: 15px;
+  }
 }
